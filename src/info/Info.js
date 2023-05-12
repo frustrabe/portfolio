@@ -165,7 +165,7 @@ export const info = {
     },
     {
       title: "Search through Robots app",
-      video: "https://youtu.be/5lElZSSy5ns",
+      video: "https://youtu.be/rFp0QaWhODk",
       live: "https://frustrabe.github.io/robots/",
       source: "https://github.com/frustrabe/robots",
       image: mock4,
