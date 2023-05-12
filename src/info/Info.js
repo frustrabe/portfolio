@@ -56,7 +56,7 @@ export const info = {
   ],
   socials: [
     {
-      link: "",
+      link: "https://drive.google.com/file/d/1vC0emDdmmUWTZ9FpEAsY0T1VlL6Sq74x/view?usp=share_link",
       icon: "fa fa-file-pdf-o",
       label: "cv",
     },
