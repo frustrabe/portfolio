@@ -147,8 +147,8 @@ export const info = {
     },
     {
       title: "Portfolio template site",
-      live: "https://frustrabe.github.io/robots/", // change to actual deployed site
-      source: "https://github.com/frustrabe/robots",
+      live: "http://fornerlukas.com/",
+      source: "https://github.com/frustrabe/portfolio",
       image: mock5,
     },
     {
