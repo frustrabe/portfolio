@@ -19,7 +19,10 @@ import mock5 from "../img/mock5.png";
 /* export let colors = ["rgb(1,237,255)", "rgb(18,62,33)"]; */
 
 // sun-flamingo (primary)
-export let colors = ["rgb(225,228,41)", "rgb(255,27,138)"];
+/* export let colors = ["rgb(225,228,41)", "rgb(255,27,138)"]; */
+
+export let colors = ["rgb(183,33,255)", "rgb(33,212,253)"];
+
 // flamingo-sun (primary)
 /* export let colors = ["rgb(255,27,138)", "rgb(235,228,41)"];
  */
