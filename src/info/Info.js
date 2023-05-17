@@ -84,6 +84,11 @@ export const info = {
       label: "twitter",
     },
     {
+      link: "https://www.youtube.com/@frustrabe",
+      icon: "fa fa-youtube",
+      label: "youtube",
+    },
+    {
       link: "https://steamcommunity.com/id/frustrabe",
       icon: "fa fa-steam",
       label: "steam",
