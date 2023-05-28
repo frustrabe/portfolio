@@ -56,7 +56,7 @@ export default function Home({ darkMode }) {
           >
             {info.firstName + " "}
           </span>
-          <span className={Style.hand}>🤚</span>
+          <span className={Style.hand}>👋🏼</span>
         </h1>
         <h2>a {info.position}</h2>
         <Box component={"ul"} p={"0.8rem"}>
