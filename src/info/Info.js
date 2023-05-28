@@ -148,13 +148,13 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Daos Tutti (dockerized)",
+      title: "Daos Tutti ",
       video: "https://youtu.be/bsF38Hl2TzY",
       source: "https://github.com/frustrabe/devOps-daos",
       image: mock1,
     },
     {
-      title: "Portfolio template site",
+      title: "Portfolio",
       live: "http://fornerlukas.com/",
       source: "https://github.com/frustrabe/portfolio",
       image: mock5,

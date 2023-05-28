@@ -14,7 +14,6 @@ function PortfolioBlock(props) {
           : "0 0 10px 0 rgba(255, 255, 255, 0.2)",
         backdropFilter: "blur(8px)",
         WebkitBackdropFilter: "blur(8px)",
-        padding: "5rem 5rem",
         margin: "1rem",
       }}
       display={"flex"}
