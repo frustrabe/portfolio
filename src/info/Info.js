@@ -1,9 +1,9 @@
-import self from "../img/self.png";
-import mock1 from "../img/mock1.png";
-import mock2 from "../img/mock2.png";
-import mock3 from "../img/mock3.png";
-import mock4 from "../img/mock4.png";
-import mock5 from "../img/mock5.png";
+import self from "../img/self.avif";
+import mock1 from "../img/mock1.avif";
+import mock2 from "../img/mock2.avif";
+import mock3 from "../img/mock3.avif";
+import mock4 from "../img/mock4.avif";
+import mock5 from "../img/mock5.avif";
 
 // grimace-fire
 /* export let colors = ["rgb(82,36,163)", "rgb(255,75,24)"]; */
