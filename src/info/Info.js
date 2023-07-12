@@ -4,6 +4,7 @@ import mock2 from "../img/mock2.avif";
 import mock3 from "../img/mock3.avif";
 import mock4 from "../img/mock4.avif";
 import mock5 from "../img/mock5.avif";
+import mock6 from "../img/mock6.avif";
 
 // grimace-fire
 /* export let colors = ["rgb(82,36,163)", "rgb(255,75,24)"]; */
@@ -62,36 +63,43 @@ export const info = {
       link: "https://drive.google.com/file/d/1VgRDqftNUB3cRjyPsaKNYe3LW_Rmoys6/view?usp=drive_link",
       icon: "fa fa-file-pdf-o",
       label: "cv",
+      altText: "CV",
     },
     {
       link: "https://www.linkedin.com/in/lukas-forner/",
       icon: "fa fa-linkedin",
       label: "linkedin",
+      altText: "LinkedIn",
     },
     {
       link: "https://github.com/frustrabe",
       icon: "fa fa-github",
       label: "github",
+      altText: "GitHub",
     },
     {
       link: "https://www.instagram.com/ffrstrbb/",
       icon: "fa fa-instagram",
       label: "instagram",
+      altText: "Instagram",
     },
     {
       link: "https://twitter.com/frustrabe",
       icon: "fa fa-twitter",
       label: "twitter",
+      altText: "Twitter",
     },
     {
       link: "https://www.youtube.com/@frustrabe",
       icon: "fa fa-youtube",
       label: "youtube",
+      altText: "Youtube",
     },
     {
       link: "https://steamcommunity.com/id/frustrabe",
       icon: "fa fa-steam",
       label: "steam",
+      altText: "Steam",
     },
   ],
   bio: "hi there! i'm an aspiring web developer, currently studying BA in web development and actively looking for an internship! i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
@@ -156,8 +164,14 @@ export const info = {
     {
       title: "Portfolio",
       live: "http://fornerlukas.com/",
-      source: "https://github.com/frustrabe/portfolio",
+      source: "https://github.com/frustrabe/projects",
       image: mock5,
+    },
+    {
+      title: "Matching Numbers",
+      live: "https://frustrabe.github.io/javascript-version/",
+      source: "https://github.com/frustrabe/javascript-version",
+      image: mock6,
     },
     {
       title: "Number counter",
