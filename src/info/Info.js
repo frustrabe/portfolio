@@ -5,6 +5,7 @@ import mock3 from "../img/mock3.avif";
 import mock4 from "../img/mock4.avif";
 import mock5 from "../img/mock5.avif";
 import mock6 from "../img/mock6.avif";
+import mock7 from "../img/mock7.avif";
 
 // grimace-fire
 /* export let colors = ["rgb(82,36,163)", "rgb(255,75,24)"]; */
@@ -156,10 +157,16 @@ export const info = {
   ],
   portfolio: [
     {
-      title: "Daos Tutti ",
-      video: "https://youtu.be/bsF38Hl2TzY",
-      source: "https://github.com/frustrabe/devOps-daos",
-      image: mock1,
+      title: "Artwork generator",
+      live: "https://frustrabe.github.io/geometric-art-generator/",
+      source: "https://github.com/frustrabe/geometric-art-generator",
+      image: mock7,
+    },
+    {
+      title: "Matching numbers",
+      live: "https://frustrabe.github.io/javascript-version/",
+      source: "https://github.com/frustrabe/javascript-version",
+      image: mock6,
     },
     {
       title: "Portfolio",
@@ -168,10 +175,10 @@ export const info = {
       image: mock5,
     },
     {
-      title: "Matching numbers",
-      live: "https://frustrabe.github.io/javascript-version/",
-      source: "https://github.com/frustrabe/javascript-version",
-      image: mock6,
+      title: "Daos Tutti ",
+      video: "https://youtu.be/bsF38Hl2TzY",
+      source: "https://github.com/frustrabe/devOps-daos",
+      image: mock1,
     },
     {
       title: "Number counter",
