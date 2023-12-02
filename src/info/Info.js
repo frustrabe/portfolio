@@ -48,11 +48,11 @@ export const info = {
     },
     {
       emoji: "📚",
-      text: "studying at Cphbusiness Lyngby",
+      text: "studying Web Development at Cphbusiness Lyngby",
     },
     {
-      emoji: "🔍",
-      text: "looking for an internship",
+      emoji: "💻",
+      text: "junior software developer at WARM ApS ",
     },
     {
       emoji: "📨",
@@ -103,24 +103,26 @@ export const info = {
       altText: "Steam",
     },
   ],
-  bio: "hi there! i'm an aspiring web developer, currently studying BA in web development and actively looking for an internship! i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
+  bio: "hi there! i'm an aspiring full-stack web developer, currently studying BA in web development and working as a junior software developer at WARM ApS! i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
   skills: {
     experienceWith: [
       "html5",
       "css3",
       "javascript",
+      "typescript",
       "reactjs",
+      "angular",
       "mongodb",
       "git",
       "github",
+      "gitlab",
     ],
     exposedTo: [
       "nodejs",
-      "typescript",
       "postgres",
       "nestjs",
       "typeorm",
-      "vite",
+      "rxjs",
       "docker",
       "figma",
     ],
@@ -143,7 +145,7 @@ export const info = {
       emoji: "🏃🏻",
     },
     {
-      label: "csgo",
+      label: "cs2",
       emoji: "🎮",
     },
     {
