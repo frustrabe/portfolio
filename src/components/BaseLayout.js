@@ -6,6 +6,7 @@ import About from "./about/About";
 import Portfolio from "./portfolio/Portfolio";
 import { Route, Routes } from "react-router-dom";
 import { Box, Grid } from "@mui/material";
+import { info } from "../info/Info";
 
 export default function BaseLayout() {
   let [darkMode, setDarkMode] = useState(false);
@@ -64,7 +65,7 @@ export default function BaseLayout() {
             <p>
               re-created and customised by{" "}
               <a className="mail" href={"mailto: lukas.forner@gmail.com"}>
-                frustrabe
+                {info.moniker}
               </a>
             </p>
             <p>&copy; 2023</p>

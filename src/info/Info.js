@@ -37,6 +37,7 @@ export const info = {
   firstName: "Lukas",
   lastName: "Forner",
   initials: "lf",
+  moniker: "frustrabe",
   position: "full-stack development student",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
@@ -52,7 +53,7 @@ export const info = {
     },
     {
       emoji: "💻",
-      text: "junior software developer at WARM ApS ",
+      text: "junior sw developer at WARM ApS ",
     },
     {
       emoji: "📨",
@@ -103,7 +104,7 @@ export const info = {
       altText: "Steam",
     },
   ],
-  bio: "hi there! i'm an aspiring full-stack web developer, currently studying BA in web development and working as a junior software developer at WARM ApS! i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
+  bio: "hi there! i'm an aspiring full-stack web developer, currently studying BA in web development and working as a junior software developer at WARM ApS. i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
   skills: {
     experienceWith: [
       "html5",

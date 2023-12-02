@@ -54,7 +54,7 @@ export default function Home({ darkMode }) {
               WebkitTextFillColor: "transparent",
             }}
           >
-            {info.firstName + " "}
+            {info.firstName + " 'frustrabe' " + info.lastName + " "}
           </span>
           <span className={Style.hand}>👋🏼</span>
         </h1>
