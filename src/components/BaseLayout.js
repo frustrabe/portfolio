@@ -13,20 +13,13 @@ export default function BaseLayout() {
 
   function handleToggleDarkMode() {
     let oppositeOfCurrentDarkMode = !darkMode;
-    console.log(oppositeOfCurrentDarkMode);
     localStorage.setItem("darkMode", `${oppositeOfCurrentDarkMode}`);
     setDarkMode(oppositeOfCurrentDarkMode);
   }
 
   useEffect(() => {
-    // eslint-disable-next-line no-eval
-    let detectedDarkMode = eval(localStorage.getItem("darkMode"));
-
-    if (detectedDarkMode) {
-      setDarkMode(detectedDarkMode);
-    } else {
-      localStorage.setItem("darkMode", "false");
-    }
+    let detectedDarkMode = localStorage.getItem("darkMode") === "true";
+    setDarkMode(detectedDarkMode);
   }, []);
 
   return (
