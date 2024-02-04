@@ -37,8 +37,8 @@ export const info = {
   firstName: "Lukas",
   lastName: "Forner",
   initials: "lf",
-  moniker: "frustrabe",
-  position: "full-stack development student",
+  position: "junior sw developer at",
+  company: "WARM ApS",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
@@ -48,12 +48,12 @@ export const info = {
       text: "based in Odense, Denmark",
     },
     {
-      emoji: "📚",
-      text: "studying Web Development at Cphbusiness Lyngby",
+      emoji: "🔎",
+      text: "looking for a full-time frontend/backend position",
     },
     {
-      emoji: "💻",
-      text: "junior sw developer at WARM ApS ",
+      emoji: "👨🏼‍🎓",
+      text: "bachelor in Web Development, Cphbusiness Lyngby",
     },
     {
       emoji: "📨",
@@ -62,7 +62,7 @@ export const info = {
   ],
   socials: [
     {
-      link: "https://drive.google.com/file/d/1VgRDqftNUB3cRjyPsaKNYe3LW_Rmoys6/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1H6ksiYx48K7B4bkqxcfj5oN1oifFTQaz/view?usp=drive_link ",
       icon: "fa fa-file-pdf-o",
       label: "cv",
       altText: "CV",

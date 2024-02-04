@@ -54,11 +54,14 @@ export default function Home({ darkMode }) {
               WebkitTextFillColor: "transparent",
             }}
           >
-            {info.firstName + " 'frustrabe' " + info.lastName + " "}
+            {info.firstName + " " + info.lastName + " "}
           </span>
           <span className={Style.hand}>👋🏼</span>
         </h1>
-        <h2>a {info.position}</h2>
+        <h2>
+          a {info.position}{" "}
+          <a href="https://www.warmmusic.net/">{info.company}</a>
+        </h2>
         <Box component={"ul"} p={"0.8rem"}>
           {info.miniBio.map((bio, index) => (
             <EmojiBullet key={index} emoji={bio.emoji} text={bio.text} />
