@@ -52,12 +52,20 @@ export default function BaseLayout() {
             width={"100%"}
           >
             <p>
-              template created with &hearts; by{" "}
+              template created by{" "}
               <a href={"https://paytonpierce.dev"}>Payton Pierce</a>
             </p>
             <p>
-              re-created and customised by{" "}
-              <a className="mail" href={"mailto: lukas.forner@gmail.com"}>
+              adjusted and customised by{" "}
+              <a
+                className="mail"
+                href={"mailto: lukas.forner@gmail.com"}
+                style={{
+                  background: info.gradient,
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                }}
+              >
                 {info.moniker}
               </a>
             </p>

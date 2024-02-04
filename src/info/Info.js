@@ -24,6 +24,7 @@ import mock7 from "../img/mock7.avif";
 /* export let colors = ["rgb(225,228,41)", "rgb(255,27,138)"]; */
 
 export let colors = ["rgb(183,33,255)", "rgb(33,212,253)"];
+export let warmColor = "rgb(239, 104, 55)";
 
 // flamingo-sun (primary)
 /* export let colors = ["rgb(255,27,138)", "rgb(235,228,41)"];
@@ -37,6 +38,7 @@ export const info = {
   firstName: "Lukas",
   lastName: "Forner",
   initials: "lf",
+  moniker: "frustrabe",
   position: "junior sw developer at",
   company: "WARM ApS",
   selfPortrait: self,
