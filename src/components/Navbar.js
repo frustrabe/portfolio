@@ -23,7 +23,7 @@ const links = [
     active: "home",
   },
   {
-    name: "projects",
+    name: "Projects",
     to: "/portfolio",
     active: "portfolio",
   },
@@ -45,7 +45,6 @@ export default function Navbar({ darkMode, handleClick }) {
         justifyContent={"center"}
         alignItems={"center"}
         gap={{ xs: "2rem", md: "8rem" }}
-        textTransform={"lowercase"}
         fontSize={"1rem"}
       >
         {links.map((link, index) => (

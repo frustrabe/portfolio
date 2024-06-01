@@ -12,18 +12,21 @@ import mock7 from "../img/mock7.avif";
 
 // flamingo-aqua
 /* export let colors = ["rgb(255,27,138)", "rgb(1,237,255)"]; */
+
 // aqua-flamingo
 /* export let colors = ["rgb(1,237,255))", "rgb(255,27,138)"]; */
 
 // pine-aqua (secondary)
 /* export let colors = ["rgb(18,62,33)", "rgb(1,237,255)"]; */
+
 // aqua-pine (secondary)
-/* export let colors = ["rgb(1,237,255)", "rgb(18,62,33)"]; */
+export let colors = ["rgb(1,237,255)", "rgb(18,62,33)"];
 
 // sun-flamingo (primary)
 /* export let colors = ["rgb(225,228,41)", "rgb(255,27,138)"]; */
 
-export let colors = ["rgb(183,33,255)", "rgb(33,212,253)"];
+// export let colors = ["rgb(183,33,255)", "rgb(33,212,253)"];
+
 export let warmColor = "rgb(239, 104, 55)";
 
 // flamingo-sun (primary)
@@ -37,7 +40,7 @@ export let warmColor = "rgb(239, 104, 55)";
 export const info = {
   firstName: "Lukas",
   lastName: "Forner",
-  initials: "lf",
+  initials: "LF",
   moniker: "frustrabe",
   position: "recent junior sw developer at",
   company: "WARM",
