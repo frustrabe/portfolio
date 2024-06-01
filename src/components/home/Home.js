@@ -6,36 +6,8 @@ import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { info, warmColor } from "../../info/Info";
-// import Particles from "react-particles";
 
 export default function Home({ darkMode }) {
-  // const particlesOptions = {
-  //   particles: {
-  //     number: {
-  //       value: 20,
-  //     },
-  //     color: {
-  //       value: "#ffffff",
-  //     },
-  //     shape: {
-  //       type: "circle",
-  //     },
-  //     opacity: {
-  //       value: 0.5,
-  //     },
-  //     size: {
-  //       value: 3,
-  //     },
-  //     line_linked: {
-  //       enable: false,
-  //     },
-  //     move: {
-  //       enable: true,
-  //       speed: 6,
-  //     },
-  //   },
-  // };
-
   return (
     <Box
       component={"main"}
@@ -45,7 +17,6 @@ export default function Home({ darkMode }) {
       justifyContent={"center"}
       minHeight={"calc(100vh - 175px)"}
     >
-      {/* <Particles id="tsparticles" options={particlesOptions} /> */}
       <Box
         className={classNames(Style.avatar, Style.shadowed)}
         alt={"image of developer"}

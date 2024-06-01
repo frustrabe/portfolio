@@ -39,19 +39,19 @@ export const info = {
   lastName: "Forner",
   initials: "lf",
   moniker: "frustrabe",
-  position: "junior sw developer at",
-  company: "WARM ApS",
+  position: "recent junior sw developer at",
+  company: "WARM",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
     {
-      emoji: "🌎",
-      text: "based in Odense, Denmark",
-    },
-    {
       emoji: "🔎",
       text: "looking for a full-time frontend/backend position",
+    },
+    {
+      emoji: "🌎",
+      text: "based in Odense, Denmark",
     },
     {
       emoji: "👨🏼‍🎓",
@@ -64,49 +64,55 @@ export const info = {
   ],
   socials: [
     {
+      link: "https://drive.google.com/file/d/1ibGuAj_Ar_Mmf4-vwZ7DAOKLGi4zOJ5Y/view?usp=drive_link",
+      icon: "fa-solid fa-medal",
+      label: "recommendation-letter",
+      altText: "Recommendation Letter ",
+    },
+    {
       link: "https://drive.google.com/file/d/14Z5lKnGz6TzNqZbWH_wyneMhUK572fix/view?usp=drive_link",
-      icon: "fa fa-file-pdf-o",
+      icon: "fa-solid fa-file-pdf",
       label: "cv",
       altText: "CV",
     },
     {
       link: "https://www.linkedin.com/in/lukas-forner/",
-      icon: "fa fa-linkedin",
+      icon: "fa-brands fa-linkedin",
       label: "linkedin",
       altText: "LinkedIn",
     },
     {
       link: "https://github.com/frustrabe",
-      icon: "fa fa-github",
+      icon: "fa-brands fa-github",
       label: "github",
       altText: "GitHub",
     },
     {
       link: "https://www.instagram.com/ffrstrbb/",
-      icon: "fa fa-instagram",
+      icon: "fa-brands fa-instagram",
       label: "instagram",
       altText: "Instagram",
     },
     {
       link: "https://twitter.com/frustrabe",
-      icon: "fa fa-twitter",
+      icon: "fa-brands fa-x-twitter",
       label: "twitter",
       altText: "Twitter",
     },
     {
       link: "https://www.youtube.com/@frustrabe",
-      icon: "fa fa-youtube",
+      icon: "fa-brands fa-youtube",
       label: "youtube",
       altText: "Youtube",
     },
     {
       link: "https://steamcommunity.com/id/frustrabe",
-      icon: "fa fa-steam",
+      icon: "fa-brands fa-steam",
       label: "steam",
       altText: "Steam",
     },
   ],
-  bio: "hi there! i'm an aspiring full-stack web developer, currently studying BA in web development and working as a junior software developer at WARM ApS. i love a good piece of music, or a nice walk outdoors. i also have a soft spot for sceneries",
+  bio: "hi there! i'm a recent web development bachelor graduate looking for a full time employment. my most recent position was part as a part-time junior software developer at a radio tracking startup. i am a big fan of music. i enjoy walking and running outdoors and i have a soft spot for sceneries.",
   skills: {
     experienceWith: [
       "html5",
