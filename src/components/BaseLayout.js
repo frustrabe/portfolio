@@ -78,7 +78,7 @@ export default function BaseLayout() {
                 {info.moniker}
               </a>
             </p>
-            <p>&copy; 2023</p>
+            <p>&copy; 2024</p>
           </Box>
         </Grid>
       </Grid>

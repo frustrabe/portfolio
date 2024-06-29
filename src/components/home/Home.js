@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Home.module.scss";
-import me from "../../img/self.avif";
+import me from "../../img/self2.avif";
 import classNames from "classnames";
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
@@ -19,17 +19,25 @@ export default function Home({ darkMode }) {
     >
       <Box
         className={classNames(Style.avatar, Style.shadowed)}
-        alt={"image of developer"}
         style={{ background: info.gradient }}
-        component={"img"}
-        src={me}
         width={{ xs: "35vh", md: "40vh" }}
         height={{ xs: "35vh", md: "40vh" }}
         borderRadius={"50%"}
         p={"0.75rem"}
         mb={{ xs: "1rem", sm: 0 }}
         mr={{ xs: 0, md: "2rem" }}
-      />
+      >
+        <img
+          src={me}
+          alt="me, Lukas"
+          style={{
+            width: "100%",
+            height: "100%",
+            objectFit: "cover",
+            borderRadius: "50%",
+          }}
+        />
+      </Box>
       <Box
         style={{
           borderRadius: "1rem",
@@ -88,6 +96,7 @@ export default function Home({ darkMode }) {
               link={social.link}
               icon={social.icon}
               label={social.label}
+              altText={social.altText}
             />
           ))}
         </Box>
