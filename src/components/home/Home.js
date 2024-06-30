@@ -1,6 +1,6 @@
 import React from "react";
 import Style from "./Home.module.scss";
-import me from "../../img/self2.avif";
+import me from "../../img/self3.avif";
 import classNames from "classnames";
 import EmojiBullet from "./EmojiBullet";
 import SocialIcon from "./SocialIcon";
