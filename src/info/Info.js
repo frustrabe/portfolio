@@ -75,7 +75,7 @@ export const info = {
       altText: "Recommendation Letter ",
     },
     {
-      link: "https://drive.google.com/file/d/14Z5lKnGz6TzNqZbWH_wyneMhUK572fix/view?usp=drive_link",
+      link: "https://drive.google.com/file/d/1lfyiGyHqDmxkR3C7agoa81qpA0WvUo1u/view?usp=sharing",
       icon: "fa-solid fa-file-pdf",
       label: "cv",
       altText: "CV",
