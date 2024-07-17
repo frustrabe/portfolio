@@ -44,12 +44,20 @@ export const info = {
   lastName: "Forner",
   initials: "LF",
   moniker: "frustrabe",
-  position: "recent junior sw developer at",
+  workTitle: "junior software developer",
   company: "WARM",
   selfPortrait: self,
   gradient: `-webkit-linear-gradient(135deg, ${colors})`,
   baseColor: colors[0],
   miniBio: [
+    {
+      emoji: "🧑🏻‍💻",
+      text: "most recent position - junior sw developer at",
+      link: {
+        text: "WARM ApS",
+        url: "https://www.warmmusic.net/",
+      },
+    },
     {
       emoji: "🔎",
       text: "looking for a full-time frontend/backend position",
