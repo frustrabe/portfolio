@@ -6,7 +6,7 @@ export default function Toggler({ darkMode, handleClick }) {
 
   return (
     <Box
-      fontSize={"1.5rem"}
+      fontSize={"1.2rem"}
       sx={{
         cursor: "pointer",
         ":hover": { transform: "translateY(-3px)", transition: transition },

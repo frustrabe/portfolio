@@ -30,12 +30,13 @@ const links = [
 ];
 
 export default function Navbar({ darkMode, handleClick }) {
+  const transition = "all 250ms ease";
   const location = useLocation();
-  const [active, setActive] = useState(
+  const initialPath =
     location.pathname === "/"
       ? "home"
-      : location.pathname.slice(1, location.pathname.length)
-  );
+      : location.pathname.slice(1, location.pathname.length);
+  const [active, setActive] = useState(initialPath);
 
   return (
     <Box component={"nav"} width={"100%"}>
@@ -52,7 +53,14 @@ export default function Navbar({ darkMode, handleClick }) {
             key={index}
             component={"li"}
             className={link.active === active && !link.type && Style.active}
-            sx={{ borderImageSource: info.gradient }}
+            sx={{
+              borderImageSource: info.gradient,
+              cursor: "pointer",
+              ":hover": {
+                transform: "translateY(-3px)",
+                transition: transition,
+              },
+            }}
           >
             <Link
               to={link.to}

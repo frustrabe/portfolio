@@ -54,7 +54,7 @@ export const info = {
       emoji: "🧑🏻‍💻",
       text: "most recent position - junior sw developer at",
       link: {
-        text: "WARM ApS",
+        text: "WARM",
         url: "https://www.warmmusic.net/",
       },
     },
