@@ -9,7 +9,7 @@ function EmojiBullet(props) {
   return (
     <Box
       component={"li"}
-      fontSize={"1rem"}
+      fontSize={{ xs: "0.65rem", md: "1rem" }}
       lineHeight={2}
       style={{ cursor: "default" }}
     >
@@ -18,7 +18,7 @@ function EmojiBullet(props) {
         aria-label="cheese"
         role="img"
         mr={{ xs: "0.5rem", md: "1rem" }}
-        fontSize={"1.5rem"}
+        fontSize={"1.25rem"}
       >
         {emoji}
       </Box>

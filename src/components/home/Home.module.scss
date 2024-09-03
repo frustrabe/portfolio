@@ -1,21 +1,14 @@
 @import "../../variables.modules";
 
+// mobile-first
 h1 {
-  font-size: 2rem;
+  font-size: 1.5rem; // Smaller font size for mobile
   text-align: center;
-  @media only screen and (min-width: 940px) {
-    font-size: 3rem;
-    text-align: left;
-  }
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1rem; // Smaller font size for mobile
   text-align: center;
-  @media only screen and (min-width: 940px) {
-    font-size: 2rem;
-    text-align: left;
-  }
 }
 
 .hand {
@@ -87,5 +80,31 @@ a:hover {
   }
   100% {
     transform: rotate(0deg);
+  }
+}
+
+// Breakpoints for larger screens
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  } // Larger font size for tablets and up
+  h2 {
+    font-size: 1.25rem;
+  }
+}
+
+@media only screen and (min-width: 940px) {
+  h1 {
+    font-size: 3rem;
+  } // Larger font size for desktops
+  h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .avatar {
+    width: 40vh; // Adjusted width for large screens
+    height: 40vh;
   }
 }
