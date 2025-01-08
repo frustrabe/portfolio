@@ -78,7 +78,9 @@ export default function BaseLayout() {
                 {info.moniker}
               </a>
             </p>
-            <p>&copy; 2024</p>
+            <p>
+              {"<"} {new Date().getFullYear()} {"/>"}
+            </p>
           </Box>
         </Grid>
       </Grid>
