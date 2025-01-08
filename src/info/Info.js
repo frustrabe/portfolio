@@ -51,6 +51,10 @@ export const info = {
   baseColor: colors[0],
   miniBio: [
     {
+      emoji: "🔎",
+      text: "looking for a full-time position",
+    },
+    {
       emoji: "🧑🏻‍💻",
       text: "most recent position - junior sw developer at",
       link: {
@@ -59,16 +63,12 @@ export const info = {
       },
     },
     {
-      emoji: "🔎",
-      text: "looking for a full-time frontend/backend position",
-    },
-    {
       emoji: "👨🏼‍🎓",
       text: "bachelor in Web Development, Cphbusiness Lyngby",
     },
     {
-      emoji: "🌎",
-      text: "based in Odense, Denmark",
+      emoji: "🇩🇰",
+      text: "based in Denmark",
     },
     {
       emoji: "📨",

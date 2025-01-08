@@ -24,7 +24,7 @@ export default function Home({ darkMode }) {
         width={{ xs: "30vh", sm: "35vh", md: "40vh" }} // pic on different screen sizes
         height={{ xs: "30vh", sm: "35vh", md: "40vh" }} // pic on different screen sizes
         borderRadius={"50%"}
-        p={"0.75rem"}
+        p={"0.25rem"}
         mb={{ xs: "1rem", sm: "1.5rem", md: 0 }}
         mr={{ xs: 0, md: "2rem" }}
         display={"flex"}
