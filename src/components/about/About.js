@@ -43,13 +43,13 @@ export default function About() {
           </span>{" "}
           ls
         </p>
-        <p style={{ color: info.baseColor }}> Experience With</p>
+        <p style={{ color: info.baseColor }}> experience with</p>
         <ul className={Style.skills}>
           {info.skills.experienceWith.map((proficiency, index) => (
             <li key={index}>{proficiency}</li>
           ))}
         </ul>
-        <p style={{ color: info.baseColor }}> Exposed To</p>
+        <p style={{ color: info.baseColor }}> exposed to</p>
         <ul className={Style.skills}>
           {info.skills.exposedTo.map((skill, index) => (
             <li key={index}>{skill}</li>
