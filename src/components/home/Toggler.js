@@ -1,15 +1,14 @@
 import React from "react";
 import { Box } from "@mui/material";
+import styles from "./Home.module.scss";
 
 export default function Toggler({ darkMode, handleClick }) {
-  const transition = "all 250ms ease";
-
   return (
     <Box
-      fontSize={{ xs: "1rem", md: "1.5rem" }}
+      className={styles.linkHover}
+      cursor={"pointer"}
       sx={{
         cursor: "pointer",
-        ":hover": { transform: "translateY(-3px)", transition: transition },
       }}
     >
       {darkMode ? (
