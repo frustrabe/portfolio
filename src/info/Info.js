@@ -124,6 +124,12 @@ export const info = {
       label: "steam",
       altText: "Steam",
     },
+    {
+      link: "https://www.strava.com/athletes/62337375",
+      icon: "fa-brands fa-strava",
+      label: "strava",
+      altText: "Strava",
+    },
   ],
   bio: "hi there! i'm a recent web development bachelor graduate looking for a full time employment. my most recent position was part as a part-time junior software developer at a radio tracking startup. i am a big fan of music. i enjoy walking and running outdoors and i have a soft spot for sceneries.",
   skills: {

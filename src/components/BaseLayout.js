@@ -79,7 +79,9 @@ export default function BaseLayout() {
               </a>
             </p>
             <p>
-              {"<"} {new Date().getFullYear()} {"/>"}
+              {"✱ "}
+              {new Date().getFullYear()}
+              {" ✱"}
             </p>
           </Box>
         </Grid>
