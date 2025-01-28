@@ -75,7 +75,7 @@ export const info = {
       text: "lukas.forner@gmail.com",
     },
   ],
-  socials: [
+  professionalSocials: [
     {
       link: "https://drive.google.com/file/d/1ibGuAj_Ar_Mmf4-vwZ7DAOKLGi4zOJ5Y/view?usp=drive_link",
       icon: "fa-solid fa-medal",
@@ -89,17 +89,19 @@ export const info = {
       altText: "CV",
     },
     {
-      link: "https://www.linkedin.com/in/lukas-forner/",
-      icon: "fa-brands fa-linkedin",
-      label: "linkedin",
-      altText: "LinkedIn",
-    },
-    {
       link: "https://github.com/frustrabe",
       icon: "fa-brands fa-github",
       label: "github",
       altText: "GitHub",
     },
+    {
+      link: "https://www.linkedin.com/in/lukas-forner/",
+      icon: "fa-brands fa-linkedin",
+      label: "linkedin",
+      altText: "LinkedIn",
+    },
+  ],
+  otherSocials: [
     {
       link: "https://www.instagram.com/ffrstrbb/",
       icon: "fa-brands fa-instagram",

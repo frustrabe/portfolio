@@ -7,6 +7,21 @@ import SocialIcon from "./SocialIcon";
 import { Box } from "@mui/material";
 import { info } from "../../info/Info";
 
+const getSharedBoxStyles = (darkMode) => ({
+  display: "flex",
+  flexDirection: "column",
+  alignItems: "center",
+  textAlign: "center",
+  padding: "1rem",
+  borderRadius: "1rem",
+  background: darkMode ? "rgba(0, 0, 0, 0.2)" : "rgba(255, 255, 255, 0.2)",
+  boxShadow: darkMode
+    ? "0 0 10px 0 rgba(0, 0, 0, 0.2)"
+    : "0 0 10px 0 rgba(255, 255, 255, 0.2)",
+  backdropFilter: "blur(8px)",
+  WebkitBackdropFilter: "blur(8px)",
+});
+
 export default function Home({ darkMode }) {
   return (
     <Box
@@ -54,7 +69,6 @@ export default function Home({ darkMode }) {
           backdropFilter: "blur(8px)",
           WebkitBackdropFilter: "blur(8px)",
           padding: "1.25rem 0.75rem", // padding for mobile
-          transition: "all 0.3s ease",
         }}
       >
         <h1>
@@ -81,22 +95,54 @@ export default function Home({ darkMode }) {
             />
           ))}
         </Box>
+
         <Box
           display={"flex"}
-          gap={"0.75rem"}
-          flexDirection={"row"}
+          flexDirection={{ xs: "column", md: "row" }}
           justifyContent={"center"}
-          fontSize={{ xs: "1.25rem", md: "2rem" }}
+          alignItems={"center"}
+          gap={"1.5rem"}
         >
-          {info.socials.map((social, index) => (
-            <SocialIcon
-              key={index}
-              link={social.link}
-              icon={social.icon}
-              label={social.label}
-              altText={social.altText}
-            />
-          ))}
+          <Box style={getSharedBoxStyles(darkMode)}>
+            <h3>professional</h3>
+            <Box
+              display={"flex"}
+              gap={"0.5rem"}
+              flexDirection={"row"}
+              justifyContent={"center"}
+              fontSize={{ xs: "1.25rem", md: "2rem" }}
+            >
+              {info.professionalSocials.map((social, index) => (
+                <SocialIcon
+                  key={index}
+                  link={social.link}
+                  icon={social.icon}
+                  label={social.label}
+                  altText={social.altText}
+                />
+              ))}
+            </Box>
+          </Box>
+          <Box style={getSharedBoxStyles(darkMode)}>
+            <h3>other</h3>
+            <Box
+              display={"flex"}
+              gap={"0.5rem"}
+              flexDirection={"row"}
+              justifyContent={"center"}
+              fontSize={{ xs: "1.25rem", md: "2rem" }}
+            >
+              {info.otherSocials.map((social, index) => (
+                <SocialIcon
+                  key={index}
+                  link={social.link}
+                  icon={social.icon}
+                  label={social.label}
+                  altText={social.altText}
+                />
+              ))}
+            </Box>
+          </Box>
         </Box>
       </Box>
     </Box>
