@@ -1,10 +1,10 @@
-import self from "../img/self.avif";
 import mock1 from "../img/mock1.avif";
 import mock2 from "../img/mock2.avif";
 import mock3 from "../img/mock3.avif";
 import mock4 from "../img/mock4.avif";
 import mock5 from "../img/mock5.avif";
 import mock6 from "../img/mock6.avif";
+import self from "../img/self.avif";
 import mock7 from "../img/mock7.avif";
 
 // aqua-pine (primary)
@@ -103,22 +103,10 @@ export const info = {
   ],
   otherSocials: [
     {
-      link: "https://www.instagram.com/ffrstrbb/",
-      icon: "fa-brands fa-instagram",
-      label: "instagram",
-      altText: "Instagram",
-    },
-    {
-      link: "https://twitter.com/frustrabe",
-      icon: "fa-brands fa-x-twitter",
-      label: "twitter",
-      altText: "Twitter",
-    },
-    {
-      link: "https://www.youtube.com/@frustrabe",
-      icon: "fa-brands fa-youtube",
-      label: "youtube",
-      altText: "Youtube",
+      link: "https://www.strava.com/athletes/62337375",
+      icon: "fa-brands fa-strava",
+      label: "strava",
+      altText: "Strava",
     },
     {
       link: "https://steamcommunity.com/id/frustrabe",
@@ -127,10 +115,10 @@ export const info = {
       altText: "Steam",
     },
     {
-      link: "https://www.strava.com/athletes/62337375",
-      icon: "fa-brands fa-strava",
-      label: "strava",
-      altText: "Strava",
+      link: "https://www.youtube.com/@frustrabe",
+      icon: "fa-brands fa-youtube",
+      label: "youtube",
+      altText: "Youtube",
     },
   ],
   bio: "hi there! i'm a recent web development bachelor graduate looking for a full time employment. my most recent position was part as a part-time junior software developer at a radio tracking startup. i am a big fan of music. i enjoy walking and running outdoors and i have a soft spot for sceneries.",
@@ -227,6 +215,7 @@ export const info = {
     {
       title: "Search through",
       live: "https://frustrabe.github.io/robots/",
+
       source: "https://github.com/frustrabe/robots",
       image: mock4,
     },

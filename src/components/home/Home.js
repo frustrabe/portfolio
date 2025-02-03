@@ -107,7 +107,7 @@ export default function Home({ darkMode }) {
             <h3>professional</h3>
             <Box
               display={"flex"}
-              gap={"0.5rem"}
+              gap={"1rem"}
               flexDirection={"row"}
               justifyContent={"center"}
               fontSize={{ xs: "1.25rem", md: "2rem" }}
@@ -127,7 +127,7 @@ export default function Home({ darkMode }) {
             <h3>other</h3>
             <Box
               display={"flex"}
-              gap={"0.5rem"}
+              gap={"1rem"}
               flexDirection={"row"}
               justifyContent={"center"}
               fontSize={{ xs: "1.25rem", md: "2rem" }}
