@@ -121,7 +121,7 @@ export const info = {
       altText: "Youtube",
     },
   ],
-  bio: "hi there! i'm a recent web development bachelor graduate looking for a full time employment. my most recent position was part as a part-time junior software developer at a radio tracking startup. i am a big fan of music. i enjoy walking and running outdoors and i have a soft spot for sceneries.",
+  bio: "hi there! i'm a recent web development bachelor graduate looking for a full time employment. my most recent position was as a part-time junior software developer at a radio tracking startup. i am a big fan of music. i enjoy walking and running outdoors and i have a soft spot for sceneries.",
   skills: {
     experienceWith: [
       "html5",
